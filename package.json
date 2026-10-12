@@ -1,0 +1,24 @@
+{
+	"name": "obsidian-mdblist-sync",
+	"version": "0.1.0",
+	"description": "Sync your MDBList watchlist, lists, watched history and ratings into Obsidian notes.",
+	"main": "main.js",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"test": "node --test src/*.test.ts"
+	},
+	"keywords": [
+		"obsidian",
+		"mdblist"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^26.6.5",
+		"esbuild": "^0.28.2",
+		"obsidian": "^1.14.4",
+		"tslib": "^2.8.1",
+		"typescript": "^7.0.2"
+	}
+}

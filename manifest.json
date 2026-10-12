@@ -1,0 +1,9 @@
+{
+	"id": "mdblist-sync",
+	"name": "MDBList Sync",
+	"version": "0.1.0",
+	"minAppVersion": "1.6.6",
+	"description": "Sync your MDBList watchlist, lists, watched history and ratings into notes.",
+	"author": "nikonhub",
+	"isDesktopOnly": false
+}
